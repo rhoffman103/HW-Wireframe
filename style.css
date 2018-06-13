@@ -24,8 +24,9 @@ header, nav, footer {
 }
 
 article {
+    display: block;
     margin: 10px;
-    width: 508px;
+    /* width: 475px;   508px; */
     background: #777;
     color: #ebebeb;
     padding: 10px 20px 20px 20px;
@@ -44,14 +45,14 @@ article {
 }
 
 .row > section {
-    width: 528px;
+    width: 495px;   /* 528px */
     padding-top: 10px;
     background: #ebebeb;
     margin: 10px 10px 10px 0px;
 }
 
 .row > aside {
-    width: 412px;
+    width: 445px;
     padding-top: 10px;
     background: #ebebeb;
     margin: 10px 0px 10px 10px;
